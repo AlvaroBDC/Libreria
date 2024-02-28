@@ -48,6 +48,8 @@
             label10 = new Label();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+            label11 = new Label();
+            label12 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -110,7 +112,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(84, 301);
+            button1.Location = new Point(84, 266);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 7;
@@ -119,7 +121,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(209, 301);
+            button2.Location = new Point(191, 266);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 8;
@@ -222,11 +224,29 @@
             textBox5.Size = new Size(81, 23);
             textBox5.TabIndex = 19;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(92, 257);
+            label11.Name = "label11";
+            label11.Size = new Size(0, 15);
+            label11.TabIndex = 21;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(269, 257);
+            label12.Name = "label12";
+            label12.Size = new Size(0, 15);
+            label12.TabIndex = 22;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label12);
+            Controls.Add(label11);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(label10);
@@ -248,7 +268,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Registro de ventas";
+            Text = "Repositorio de Ventas";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -275,5 +295,7 @@
         private Label label10;
         private TextBox textBox4;
         private TextBox textBox5;
+        private Label label11;
+        private Label label12;
     }
 }
